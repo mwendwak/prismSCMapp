@@ -3,6 +3,7 @@
   <PropertyGroup>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
     <ProjectView>ProjectFiles</ProjectView>
-    <SelectedDevice>Nexus 5%28KitKat%29</SelectedDevice>
+    <SelectedDevice>Nexus 4 %28KitKat%29</SelectedDevice>
+    <AndroidDesignerPreferredTheme>Theme.Custom</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

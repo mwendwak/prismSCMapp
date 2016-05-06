@@ -1,10 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-  <style name="PrismTheme" parent ="Theme.AppCompat.Light">
+  <style name="PrismTheme" parent ="Theme.AppCompat.Light">  
+    <item name="android:windowBackground">@color/window_background</item>
   </style>
 
-  <style name="PrismTheme.Splash" parent ="Theme.AppCompat.Light">
-    <item name="android:windowBackground">@drawable/splash_screen</item>
-    <item name="android:windowNoTitle">true</item>
+  <style name="PrismTheme.Login" parent ="PrismTheme">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>        
   </style>
+  
 </resources>

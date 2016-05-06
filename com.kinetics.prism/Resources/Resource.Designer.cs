@@ -1063,32 +1063,32 @@ namespace com.kinetics.prism
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f080052
-			public const int abc_background_cache_hint_selector_material_dark = 2131230802;
-			
 			// aapt resource value: 0x7f080053
-			public const int abc_background_cache_hint_selector_material_light = 2131230803;
+			public const int abc_background_cache_hint_selector_material_dark = 2131230803;
 			
 			// aapt resource value: 0x7f080054
-			public const int abc_color_highlight_material = 2131230804;
+			public const int abc_background_cache_hint_selector_material_light = 2131230804;
+			
+			// aapt resource value: 0x7f080055
+			public const int abc_color_highlight_material = 2131230805;
 			
 			// aapt resource value: 0x7f080004
 			public const int abc_input_method_navigation_guard = 2131230724;
 			
-			// aapt resource value: 0x7f080055
-			public const int abc_primary_text_disable_only_material_dark = 2131230805;
-			
 			// aapt resource value: 0x7f080056
-			public const int abc_primary_text_disable_only_material_light = 2131230806;
+			public const int abc_primary_text_disable_only_material_dark = 2131230806;
 			
 			// aapt resource value: 0x7f080057
-			public const int abc_primary_text_material_dark = 2131230807;
+			public const int abc_primary_text_disable_only_material_light = 2131230807;
 			
 			// aapt resource value: 0x7f080058
-			public const int abc_primary_text_material_light = 2131230808;
+			public const int abc_primary_text_material_dark = 2131230808;
 			
 			// aapt resource value: 0x7f080059
-			public const int abc_search_url_text = 2131230809;
+			public const int abc_primary_text_material_light = 2131230809;
+			
+			// aapt resource value: 0x7f08005a
+			public const int abc_search_url_text = 2131230810;
 			
 			// aapt resource value: 0x7f080005
 			public const int abc_search_url_text_normal = 2131230725;
@@ -1099,11 +1099,11 @@ namespace com.kinetics.prism
 			// aapt resource value: 0x7f080007
 			public const int abc_search_url_text_selected = 2131230727;
 			
-			// aapt resource value: 0x7f08005a
-			public const int abc_secondary_text_material_dark = 2131230810;
-			
 			// aapt resource value: 0x7f08005b
-			public const int abc_secondary_text_material_light = 2131230811;
+			public const int abc_secondary_text_material_dark = 2131230811;
+			
+			// aapt resource value: 0x7f08005c
+			public const int abc_secondary_text_material_light = 2131230812;
 			
 			// aapt resource value: 0x7f08004a
 			public const int accent = 2131230794;
@@ -1330,17 +1330,20 @@ namespace com.kinetics.prism
 			// aapt resource value: 0x7f08003b
 			public const int switch_thumb_disabled_material_light = 2131230779;
 			
-			// aapt resource value: 0x7f08005c
-			public const int switch_thumb_material_dark = 2131230812;
-			
 			// aapt resource value: 0x7f08005d
-			public const int switch_thumb_material_light = 2131230813;
+			public const int switch_thumb_material_dark = 2131230813;
+			
+			// aapt resource value: 0x7f08005e
+			public const int switch_thumb_material_light = 2131230814;
 			
 			// aapt resource value: 0x7f08003c
 			public const int switch_thumb_normal_material_dark = 2131230780;
 			
 			// aapt resource value: 0x7f08003d
 			public const int switch_thumb_normal_material_light = 2131230781;
+			
+			// aapt resource value: 0x7f080052
+			public const int theme_devicedefault_background = 2131230802;
 			
 			// aapt resource value: 0x7f080050
 			public const int window_background = 2131230800;
@@ -1941,14 +1944,17 @@ namespace com.kinetics.prism
 			// aapt resource value: 0x7f02004e
 			public const int ic_launcher = 2130837582;
 			
-			// aapt resource value: 0x7f020051
-			public const int notification_template_icon_bg = 2130837585;
+			// aapt resource value: 0x7f020052
+			public const int notification_template_icon_bg = 2130837586;
 			
 			// aapt resource value: 0x7f02004f
 			public const int prism_logo = 2130837583;
 			
 			// aapt resource value: 0x7f020050
-			public const int splash_screen = 2130837584;
+			public const int prismlogo = 2130837584;
+			
+			// aapt resource value: 0x7f020051
+			public const int splash_screen = 2130837585;
 			
 			static Drawable()
 			{
@@ -1965,6 +1971,9 @@ namespace com.kinetics.prism
 			
 			// aapt resource value: 0x7f060076
 			public const int MyButton = 2131099766;
+			
+			// aapt resource value: 0x7f060084
+			public const int UserID = 2131099780;
 			
 			// aapt resource value: 0x7f060077
 			public const int action0 = 2131099767;
@@ -2031,6 +2040,12 @@ namespace com.kinetics.prism
 			
 			// aapt resource value: 0x7f06000f
 			public const int bottom = 2131099663;
+			
+			// aapt resource value: 0x7f060086
+			public const int btn_login = 2131099782;
+			
+			// aapt resource value: 0x7f060087
+			public const int btn_register = 2131099783;
 			
 			// aapt resource value: 0x7f060048
 			public const int buttonPanel = 2131099720;
@@ -2152,6 +2167,9 @@ namespace com.kinetics.prism
 			// aapt resource value: 0x7f060082
 			public const int info = 2131099778;
 			
+			// aapt resource value: 0x7f060085
+			public const int input_password = 2131099781;
+			
 			// aapt resource value: 0x7f060000
 			public const int item_touch_helper_previous_elevation = 2131099648;
 			
@@ -2169,9 +2187,6 @@ namespace com.kinetics.prism
 			
 			// aapt resource value: 0x7f060045
 			public const int list_item = 2131099717;
-			
-			// aapt resource value: 0x7f060084
-			public const int login_title = 2131099780;
 			
 			// aapt resource value: 0x7f06007a
 			public const int media_actions = 2131099770;
@@ -2349,9 +2364,6 @@ namespace com.kinetics.prism
 			
 			// aapt resource value: 0x7f060026
 			public const int useLogo = 2131099686;
-			
-			// aapt resource value: 0x7f060085
-			public const int user_profile_photo = 2131099781;
 			
 			// aapt resource value: 0x7f06000c
 			public const int vertical = 2131099660;
@@ -2567,6 +2579,12 @@ namespace com.kinetics.prism
 			
 			// aapt resource value: 0x7f030033
 			public const int User_Login = 2130903091;
+			
+			// aapt resource value: 0x7f030034
+			public const int User_Pending = 2130903092;
+			
+			// aapt resource value: 0x7f030035
+			public const int User_Register = 2130903093;
 			
 			static Layout()
 			{
@@ -3159,7 +3177,7 @@ namespace com.kinetics.prism
 			public const int PrismTheme = 2131165531;
 			
 			// aapt resource value: 0x7f07015c
-			public const int PrismTheme_Splash = 2131165532;
+			public const int PrismTheme_Login = 2131165532;
 			
 			// aapt resource value: 0x7f07002c
 			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131165228;
@@ -3442,6 +3460,9 @@ namespace com.kinetics.prism
 			
 			// aapt resource value: 0x7f0700f6
 			public const int Theme_AppCompat_NoActionBar = 2131165430;
+			
+			// aapt resource value: 0x7f07015d
+			public const int Theme_Custom = 2131165533;
 			
 			// aapt resource value: 0x7f07014c
 			public const int Theme_Design = 2131165516;

@@ -2523,12 +2523,14 @@ containing a value of this type.
         public static int design_snackbar_background=0x7f02004c;
         public static int diamondcusp=0x7f02004d;
         public static int ic_launcher=0x7f02004e;
-        public static int notification_template_icon_bg=0x7f020051;
+        public static int notification_template_icon_bg=0x7f020052;
         public static int prism_logo=0x7f02004f;
-        public static int splash_screen=0x7f020050;
+        public static int prismlogo=0x7f020050;
+        public static int splash_screen=0x7f020051;
     }
     public static final class id {
         public static int MyButton=0x7f060076;
+        public static int UserID=0x7f060084;
         public static int action0=0x7f060077;
         public static int action_bar=0x7f06005e;
         public static int action_bar_activity_content=0x7f060001;
@@ -2551,6 +2553,8 @@ containing a value of this type.
         public static int always=0x7f06002f;
         public static int beginning=0x7f06002d;
         public static int bottom=0x7f06000f;
+        public static int btn_login=0x7f060086;
+        public static int btn_register=0x7f060087;
         public static int buttonPanel=0x7f060048;
         public static int cancel_action=0x7f060078;
         public static int center=0x7f060010;
@@ -2591,13 +2595,13 @@ containing a value of this type.
         public static int ifRoom=0x7f060031;
         public static int image=0x7f060043;
         public static int info=0x7f060082;
+        public static int input_password=0x7f060085;
         public static int item_touch_helper_previous_elevation=0x7f060000;
         public static int left=0x7f060019;
         public static int line1=0x7f06007c;
         public static int line3=0x7f060080;
         public static int listMode=0x7f06001d;
         public static int list_item=0x7f060045;
-        public static int login_title=0x7f060084;
         public static int media_actions=0x7f06007a;
         public static int middle=0x7f06002e;
         public static int mini=0x7f06003b;
@@ -2657,7 +2661,6 @@ containing a value of this type.
         public static int touch_outside=0x7f06006d;
         public static int up=0x7f060009;
         public static int useLogo=0x7f060026;
-        public static int user_profile_photo=0x7f060085;
         public static int vertical=0x7f06000c;
         public static int view_offset_helper=0x7f06000a;
         public static int withText=0x7f060033;
@@ -2725,6 +2728,8 @@ containing a value of this type.
         public static int splash_screen=0x7f030031;
         public static int support_simple_spinner_dropdown_item=0x7f030032;
         public static int user_login=0x7f030033;
+        public static int user_pending=0x7f030034;
+        public static int user_register=0x7f030035;
     }
     public static final class string {
         public static int ApplicationName=0x7f090018;
@@ -2917,7 +2922,7 @@ containing a value of this type.
         public static int Platform_V14_AppCompat_Light=0x7f070026;
         public static int Platform_Widget_AppCompat_Spinner=0x7f07001f;
         public static int PrismTheme=0x7f07015b;
-        public static int PrismTheme_Splash=0x7f07015c;
+        public static int PrismTheme_Login=0x7f07015c;
         public static int RtlOverlay_DialogWindowTitle_AppCompat=0x7f07002c;
         public static int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f07002d;
         public static int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f07002e;
