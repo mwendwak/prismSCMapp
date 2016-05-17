@@ -1,1 +1,1 @@
-<resources><string name="Hello">Hello World, Click Me!</string><string name="ApplicationName">com.kinetics.prism</string></resources>
+<resources><string name="ApplicationName">com.kinetics.prism</string><string name="Hello">Hello App</string><!-- Navigation Menu Items on Action Bar--><string name="menu_1">Home</string><string name="menu_2">Sales</string><string name="menu_3">Products</string><string name="menu_4">Customers</string><string name="menu_5">Cash</string><string name="menu_6">Syncs</string><!-- Navigation Menu--></resources>
