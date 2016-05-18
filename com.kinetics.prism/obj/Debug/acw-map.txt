@@ -1,3 +1,15 @@
+com.kinetics.prism.NavTabCustomer, Priscm;md51f0f95cda6703b7fd3dbd7cc23928f92.NavTabCustomer
+com.kinetics.prism.NavTabCustomer, Priscm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51f0f95cda6703b7fd3dbd7cc23928f92.NavTabCustomer
+com.kinetics.prism.NavTabCustomer;md51f0f95cda6703b7fd3dbd7cc23928f92.NavTabCustomer
+com.kinetics.prism.NavTabCustomer;md51f0f95cda6703b7fd3dbd7cc23928f92.NavTabCustomer
+com.kinetics.prism.NavTabHome, Priscm;md51f0f95cda6703b7fd3dbd7cc23928f92.NavTabHome
+com.kinetics.prism.NavTabHome, Priscm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51f0f95cda6703b7fd3dbd7cc23928f92.NavTabHome
+com.kinetics.prism.NavTabHome;md51f0f95cda6703b7fd3dbd7cc23928f92.NavTabHome
+com.kinetics.prism.NavTabHome;md51f0f95cda6703b7fd3dbd7cc23928f92.NavTabHome
+com.kinetics.prism.NavTabOrder, Priscm;md51f0f95cda6703b7fd3dbd7cc23928f92.NavTabOrder
+com.kinetics.prism.NavTabOrder, Priscm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51f0f95cda6703b7fd3dbd7cc23928f92.NavTabOrder
+com.kinetics.prism.NavTabOrder;md51f0f95cda6703b7fd3dbd7cc23928f92.NavTabOrder
+com.kinetics.prism.NavTabOrder;md51f0f95cda6703b7fd3dbd7cc23928f92.NavTabOrder
 com.kinetics.prism.UserRegistration, Priscm;md51f0f95cda6703b7fd3dbd7cc23928f92.UserRegistration
 com.kinetics.prism.UserRegistration, Priscm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51f0f95cda6703b7fd3dbd7cc23928f92.UserRegistration
 com.kinetics.prism.UserRegistration;md51f0f95cda6703b7fd3dbd7cc23928f92.UserRegistration
