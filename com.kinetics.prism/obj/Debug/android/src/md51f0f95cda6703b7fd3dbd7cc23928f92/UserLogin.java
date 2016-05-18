@@ -2,7 +2,7 @@ package md51f0f95cda6703b7fd3dbd7cc23928f92;
 
 
 public class UserLogin
-	extends android.app.Activity
+	extends md51f0f95cda6703b7fd3dbd7cc23928f92.BaseActivity
 	implements
 		mono.android.IGCUserPeer
 {

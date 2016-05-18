@@ -9,7 +9,7 @@ using System.Linq;
 namespace com.kinetics.prism
 {
     [Activity(ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait, Theme = "@style/PrismTheme.Base")]
-    public class BaseActivity :Activity
+    public class BaseActivity :AppCompatActivity
     {
         public override void OnCreate(Bundle savedInstanceState, PersistableBundle persistentState)
         {

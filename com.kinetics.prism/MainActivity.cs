@@ -6,11 +6,12 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Android.Support.V7.App;
 
 namespace com.kinetics.prism
 {
-    [Activity(Label = "Prism SCM")]
-    public class MainActivity : BaseActivity
+    [Activity(Label = "Prism SCM", Theme = "@android:style/Theme.Holo.Light.DarkActionBar")]
+    public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
         {
@@ -20,7 +21,7 @@ namespace com.kinetics.prism
             SetContentView(Resource.Layout.Main);
 
             this.ActionBar.NavigationMode = ActionBarNavigationMode.Tabs;
-
+           
             //set the action bar tabs          
             //Home Tab
             NavTabHome homeTab = new NavTabHome();
@@ -52,17 +53,17 @@ namespace com.kinetics.prism
             //tab.SetIcon(Resource.Drawable.ic_tab_white); //Lets not show icons for now
 
             // must set event handler before adding tab
-            tab.TabSelected += delegate (object sender, ActionBar.TabEventArgs e)
+            tab.TabSelected += delegate (object sender, Android.App.ActionBar.TabEventArgs e)
             {
                 var fragment = this.FragmentManager.FindFragmentById(Resource.Id.fragmentContainer);
                 if (fragment != null)
                     e.FragmentTransaction.Remove(fragment);
                 e.FragmentTransaction.Add(Resource.Id.fragmentContainer, view);
             };
-            tab.TabUnselected += delegate (object sender, ActionBar.TabEventArgs e) {
+            tab.TabUnselected += delegate (object sender, Android.App.ActionBar.TabEventArgs e)
+            {
                 e.FragmentTransaction.Remove(view);
             };
-
             this.ActionBar.AddTab(tab);
         }
 

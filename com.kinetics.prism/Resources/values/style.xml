@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-  <style name="PrismTheme" parent = "@android:style/Theme.Holo.Light">  
+  <style name="PrismTheme" parent = "Theme.AppCompat.Light">  
     <item name="android:windowBackground">@color/window_background</item>
   </style>
 
@@ -49,7 +49,7 @@
   <!-- Other Style Bar Bits -->
 
   <!-- Main Theme-->
-    <style name="PrismTheme.Base" parent="PrismTheme">
+    <style name="PrismTheme.Base" parent="@android:style/Theme.Holo.Light.DarkActionBar">
       <item name="android:actionBarItemBackground">@drawable/selectable_background_example</item>
       <item name="android:popupMenuStyle">@style/PopupMenu.Example</item>
       <item name="android:dropDownListViewStyle">@style/DropDownListView.Example</item>
@@ -59,6 +59,7 @@
       <item name="android:actionModeBackground">@drawable/cab_background_top_example</item>
       <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_example</item>
       <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Example</item>
+      <item name="android:windowBackground">@color/window_background</item>
     </style>
   <!-- Main Theme--> 
   
