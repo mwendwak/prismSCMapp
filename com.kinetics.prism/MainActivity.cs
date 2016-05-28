@@ -29,11 +29,13 @@ namespace com.kinetics.prism
             //Orders Tab
             NavTabOrder orderTab = new NavTabOrder();
             AddTab(GetString(Resource.String.menu_2), Resource.Drawable.ic_launcher, orderTab);
+            //Products Tab
+            NavTabProduct productTab = new NavTabProduct();
+            AddTab(GetString(Resource.String.menu_3), Resource.Drawable.ic_launcher, productTab);
             //Customers Tab
             NavTabCustomer customerTab = new NavTabCustomer();
-            AddTab(GetString(Resource.String.menu_3), Resource.Drawable.ic_launcher, customerTab);
+            AddTab(GetString(Resource.String.menu_4), Resource.Drawable.ic_launcher, customerTab);
             //action bar tabs
-
             if (bundle != null)
                 this.ActionBar.SelectTab(this.ActionBar.GetTabAt(bundle.GetInt("tab")));
 
