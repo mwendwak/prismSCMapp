@@ -8,8 +8,8 @@ using Android.Widget;
 
 namespace com.kinetics.prism
 {
-    [Activity(Theme = "@style/Theme.AppCompat.Light", MainLauncher = true)]
-    public class UserLogin : BaseActivity
+    [Activity(Theme = "@style/PrismTheme.Login",MainLauncher = true)]
+    public class UserLogin : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
