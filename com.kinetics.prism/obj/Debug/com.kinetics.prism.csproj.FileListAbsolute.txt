@@ -1,1 +1,0 @@
-F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\com.kinetics.prism.csprojResolveAssemblyReference.cache

@@ -3,9 +3,9 @@
   <AndroidApiLevel>23</AndroidApiLevel>
   <AndroidApiLevelName>23</AndroidApiLevelName>
   <AndroidNdkPath>F:\Android\android-ndk-r11c</AndroidNdkPath>
-  <AndroidSdkBuildToolsPath>F:\Android\AndroidSDK\build-tools\24.0.0-preview</AndroidSdkBuildToolsPath>
-  <AndroidSdkBuildToolsBinPath>F:\Android\AndroidSDK\build-tools\24.0.0-preview</AndroidSdkBuildToolsBinPath>
-  <AndroidSdkPath>F:\Android\AndroidSDK</AndroidSdkPath>
+  <AndroidSdkBuildToolsPath>C:\Users\Administrator\AppData\Local\Android\sdk\build-tools\23.0.3</AndroidSdkBuildToolsPath>
+  <AndroidSdkBuildToolsBinPath>C:\Users\Administrator\AppData\Local\Android\sdk\build-tools\23.0.3</AndroidSdkBuildToolsBinPath>
+  <AndroidSdkPath>C:\Users\Administrator\AppData\Local\Android\sdk</AndroidSdkPath>
   <JavaSdkPath>C:\Program Files (x86)\Java\jdk1.7.0_55</JavaSdkPath>
   <MonoAndroidBinPath>C:\Program Files (x86)\MSBuild\Xamarin\Android</MonoAndroidBinPath>
   <MonoAndroidToolsPath>C:\Program Files (x86)\MSBuild\Xamarin\Android</MonoAndroidToolsPath>
@@ -13,7 +13,7 @@
     <ReferenceAssemblyPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\</ReferenceAssemblyPath>
   </ReferenceAssemblyPaths>
   <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
-  <ZipAlignPath>F:\Android\AndroidSDK\build-tools\24.0.0-preview</ZipAlignPath>
+  <ZipAlignPath>C:\Users\Administrator\AppData\Local\Android\sdk\build-tools\23.0.3</ZipAlignPath>
   <MonoAndroidIncludePath />
   <SupportedApiLevel>23</SupportedApiLevel>
   <AndroidSequencePointsMode>None</AndroidSequencePointsMode>
