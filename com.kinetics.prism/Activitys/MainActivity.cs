@@ -22,13 +22,13 @@ namespace com.kinetics.prism
                 AddTab(GetString(Resource.String.menu_1), Resource.Drawable.ic_launcher, homeTab);
                 //2.Products Tab
                 NavTabProduct productTab = new NavTabProduct();
-                AddTab(GetString(Resource.String.menu_3), Resource.Drawable.ic_launcher, productTab);
+                AddTab(GetString(Resource.String.menu_2), Resource.Drawable.ic_launcher, productTab);
                 //3.Customers Tab
                 NavTabCustomer customerTab = new NavTabCustomer();
                 AddTab(GetString(Resource.String.menu_3), Resource.Drawable.ic_launcher, customerTab);
                 //4.Orders Tab
                 NavTabOrder orderTab = new NavTabOrder();
-                AddTab(GetString(Resource.String.menu_2), Resource.Drawable.ic_launcher, orderTab);
+                AddTab(GetString(Resource.String.menu_4), Resource.Drawable.ic_launcher, orderTab);
                 //5.Cash Tab
                 /*ADD DISPLAY FOR THIS TABS*/
             //action bar tabs

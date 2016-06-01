@@ -19,6 +19,7 @@ F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\Xamarin.An
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\Xamarin.Auth.dll
+F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\Priscm.csprojResolveAssemblyReference.cache
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\Priscm.dll
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\Priscm.pdb
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\android\bin\com.kinetics.prism.apk

@@ -1,23 +1,58 @@
 using Path = System.IO.Path;
 using SQLite;
+using Android.Util;
 
 namespace com.kinetics.prism.DBstorage
 {
     public class DatabaseHelper
     {
-         static string DbName = "PriscmDB"; //Make this to derive from a string resource
-         static string DocumentPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-         static string DbPath = Path.Combine(DocumentPath, DbName);
-         SQLiteAsyncConnection dbConnAsync;
+        static string DbName = "PriscmDB.db"; //Make this to derive from a string resource
+        static string DocumentPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+        static string DbPath = Path.Combine(DocumentPath, DbName);
 
-        public SQLiteAsyncConnection createDBConnection ()
+        public static SQLiteAsyncConnection dbConnAsync;
+        private static DatabaseHelper dbInstance;
+
+        private static readonly object padlock = new object();
+
+        protected DatabaseHelper ()
         {
-            var prscmPlatform = new SQLite.Net.Platform.XamarinAndroid.SQLiteApiAndroid ();       
-            dbConnAsync = new SQLiteAsyncConnection(DbPath,false);
-            return dbConnAsync;
+            createDBConnection();
         }
 
+        private static void createDBConnection ()
+        {
+            string tag = "DBCreate:";
+            try
+            {
+                dbConnAsync = new SQLiteAsyncConnection(DbPath, false);
+                Log.Info(tag, "Created a DB Conn");
+            }catch (SQLiteException ex)
+            {
+                Log.Error(tag, "Problem on DB Conn " + ex.Message);
+            }
+        }
 
+        public static DatabaseHelper GetDBSingleton ()
+        {
+            if (dbInstance == null)
+            {
+                lock (padlock)
+                {
+                    if (dbInstance == null)
+                    {
+                        dbInstance = new DatabaseHelper();
+
+                    }
+                }
+            }
+            return dbInstance;
+        }
+
+        public SQLiteAsyncConnection getConn()
+        {
+                return dbConnAsync;
+        }
 
     }
 

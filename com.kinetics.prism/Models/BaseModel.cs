@@ -8,11 +8,11 @@ namespace com.kinetics.prism.Models
     {
         public SQLiteAsyncConnection currDBConn;
 
-        public SQLiteAsyncConnection getDBConn()
+        public BaseModel ()
         {
-            DatabaseHelper DBHelper = new DatabaseHelper();
-            currDBConn = DBHelper.createDBConnection();
-            return currDBConn;
+            DatabaseHelper dbHelper = DatabaseHelper.GetDBSingleton();
+            currDBConn = dbHelper.getConn();
         }
+
     }
 }

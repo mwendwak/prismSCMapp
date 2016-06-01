@@ -10,4 +10,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/demoText" />
+    <Button
+        android:id="@+id/dbCreate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="INST. DB"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+    <Button
+        android:id="@+id/genProducts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="GEN.PRODUCTS"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
 </LinearLayout>
