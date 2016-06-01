@@ -2,13 +2,16 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\__library_projects__\Xamarin.Auth\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\__library_projects__\Xamarin.Auth\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\__library_projects__\Xamarin.Auth.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

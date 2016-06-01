@@ -2,6 +2,10 @@ F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\Priscm.dll
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\Priscm.pdb
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\com.kinetics.prism.apk
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\com.kinetics.prism-Signed.apk
+F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\JetBrains.Annotations.PCL328.dll
+F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\SQLite.Net.Async.dll
+F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\SQLite.Net.dll
+F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\SQLite.Net.Platform.XamarinAndroid.dll
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\Xamarin.Android.Support.CustomTabs.dll
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\Xamarin.Android.Support.Design.dll
