@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.kinetics.prism" android:versionCode="1" android:versionName="andromeda" android:installLocation="auto">
   <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="23" />
+  <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:debuggable="true" android:label="Priscm" android:icon="@drawable/ic_launcher" android:name="mono.android.app.Application" android:allowBackup="true">
     <activity android:screenOrientation="portrait" android:theme="@style/PrismTheme.Base" android:name="md51f0f95cda6703b7fd3dbd7cc23928f92.BaseActivity" />
     <activity android:label="Prism SCM" android:theme="@android:style/Theme.Holo.Light.DarkActionBar" android:name="md51f0f95cda6703b7fd3dbd7cc23928f92.MainActivity" />
-    <activity android:noHistory="true" android:theme="@style/PrismTheme" android:name="md51f0f95cda6703b7fd3dbd7cc23928f92.SplashSC">
-      <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
-        <category android:name="android.intent.category.LAUNCHER" />
-      </intent-filter>
-    </activity>
+    <activity android:noHistory="true" android:theme="@style/PrismTheme" android:name="md51f0f95cda6703b7fd3dbd7cc23928f92.SplashSC" />
     <activity android:theme="@style/PrismTheme.Login" android:name="md51f0f95cda6703b7fd3dbd7cc23928f92.UserLogin">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

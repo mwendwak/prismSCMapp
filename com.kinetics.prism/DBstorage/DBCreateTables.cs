@@ -17,7 +17,7 @@ namespace com.kinetics.prism.DBstorage
         public string createTables()
         {
             string DBCreatedStatus = "";
-            string tag = "DBStructActiity: ";
+            string tag = "DBStructActivity: ";
             try
             {
                 currDBConn.CreateTableAsync<Product>();

@@ -2563,9 +2563,9 @@ containing a value of this type.
         public static int tab_unselected_pressed_example=0x7f020072;
     }
     public static final class id {
-        public static int MyButton=0x7f06007a;
-        public static int UserID=0x7f060088;
-        public static int action0=0x7f06007b;
+        public static int MyButton=0x7f06007b;
+        public static int UserID=0x7f060089;
+        public static int action0=0x7f06007c;
         public static int action_bar=0x7f06005e;
         public static int action_bar_activity_content=0x7f060001;
         public static int action_bar_container=0x7f06005d;
@@ -2574,7 +2574,7 @@ containing a value of this type.
         public static int action_bar_subtitle=0x7f06003f;
         public static int action_bar_title=0x7f06003e;
         public static int action_context_bar=0x7f06005f;
-        public static int action_divider=0x7f06007f;
+        public static int action_divider=0x7f060080;
         public static int action_menu_divider=0x7f060003;
         public static int action_menu_presenter=0x7f060004;
         public static int action_mode_bar=0x7f06005b;
@@ -2587,15 +2587,15 @@ containing a value of this type.
         public static int always=0x7f06002f;
         public static int beginning=0x7f06002d;
         public static int bottom=0x7f06000f;
-        public static int btn_login=0x7f06008a;
-        public static int btn_register=0x7f06008b;
+        public static int btn_login=0x7f06008b;
+        public static int btn_register=0x7f06008c;
         public static int buttonPanel=0x7f060048;
-        public static int cancel_action=0x7f06007c;
+        public static int cancel_action=0x7f06007d;
         public static int center=0x7f060010;
         public static int center_horizontal=0x7f060011;
         public static int center_vertical=0x7f060012;
         public static int checkbox=0x7f060056;
-        public static int chronometer=0x7f060082;
+        public static int chronometer=0x7f060083;
         public static int clip_horizontal=0x7f060013;
         public static int clip_vertical=0x7f060014;
         public static int collapseActionView=0x7f060030;
@@ -2614,7 +2614,7 @@ containing a value of this type.
         public static int disableHome=0x7f060020;
         public static int edit_query=0x7f060060;
         public static int end=0x7f060015;
-        public static int end_padder=0x7f060087;
+        public static int end_padder=0x7f060088;
         public static int enterAlways=0x7f060034;
         public static int enterAlwaysCollapsed=0x7f060035;
         public static int exitUntilCollapsed=0x7f060036;
@@ -2632,15 +2632,15 @@ containing a value of this type.
         public static int icon=0x7f060046;
         public static int ifRoom=0x7f060031;
         public static int image=0x7f060043;
-        public static int info=0x7f060086;
-        public static int input_password=0x7f060089;
+        public static int info=0x7f060087;
+        public static int input_password=0x7f06008a;
         public static int item_touch_helper_previous_elevation=0x7f060000;
         public static int left=0x7f060019;
-        public static int line1=0x7f060080;
-        public static int line3=0x7f060084;
+        public static int line1=0x7f060081;
+        public static int line3=0x7f060085;
         public static int listMode=0x7f06001d;
         public static int list_item=0x7f060045;
-        public static int media_actions=0x7f06007e;
+        public static int media_actions=0x7f06007f;
         public static int middle=0x7f06002e;
         public static int mini=0x7f06003b;
         public static int multiply=0x7f060028;
@@ -2685,13 +2685,14 @@ containing a value of this type.
         public static int src_in=0x7f06002b;
         public static int src_over=0x7f06002c;
         public static int start=0x7f06001b;
-        public static int status_bar_latest_event_content=0x7f06007d;
+        public static int status_bar_latest_event_content=0x7f06007e;
         public static int submit_area=0x7f060069;
+        public static int syncProducts=0x7f06007a;
         public static int tabMode=0x7f06001f;
-        public static int text=0x7f060085;
-        public static int text2=0x7f060083;
+        public static int text=0x7f060086;
+        public static int text2=0x7f060084;
         public static int textSpacerNoButtons=0x7f060051;
-        public static int time=0x7f060081;
+        public static int time=0x7f060082;
         public static int title=0x7f060047;
         public static int title_template=0x7f06004c;
         public static int top=0x7f06001c;
@@ -3181,6 +3182,9 @@ containing a value of this type.
         public static int Widget_Design_Snackbar=0x7f070159;
         public static int Widget_Design_TabLayout=0x7f070142;
         public static int Widget_Design_TextInputLayout=0x7f07015a;
+    }
+    public static final class syncUrls {
+        public static int syncURL=0x7f0c0000;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.

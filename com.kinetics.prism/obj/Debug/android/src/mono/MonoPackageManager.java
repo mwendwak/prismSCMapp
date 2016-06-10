@@ -81,6 +81,7 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"Priscm.dll",
 		"JetBrains.Annotations.PCL328.dll",
+		"Newtonsoft.Json.dll",
 		"SQLite.Net.Async.dll",
 		"SQLite.Net.dll",
 		"SQLite.Net.Platform.XamarinAndroid.dll",

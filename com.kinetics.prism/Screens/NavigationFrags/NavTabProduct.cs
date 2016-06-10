@@ -13,15 +13,10 @@ namespace com.kinetics.prism
             base.OnCreateView(inflater, container, savedInstanceState);
             /*CAPTURE PAGE ELEMENTS*/
                 var view = inflater.Inflate(Resource.Layout.Menu_Products, container, false);
-                var btnGenProducts = view.FindViewById<Button>(Resource.Id.genProducts);
             /*PAGE ELEMENTS*/
 
             /*HANDLE VIEW EVENTS HERE*/
-                btnGenProducts.Click += delegate {
-                    Product tempProd = new Product();
-                    tempProd =  Product.createProduct();
-                    Product.insertProduct(tempProd);
-            };
+
             /*HANDLE VIEW EVENTS*/
             return view;
         }

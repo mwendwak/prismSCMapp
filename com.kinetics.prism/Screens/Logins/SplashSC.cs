@@ -7,7 +7,7 @@ using Android.Support.V7.App;
 
 namespace com.kinetics.prism
 {
-    [Activity(Theme = "@style/PrismTheme",MainLauncher = true, NoHistory = true)]
+    [Activity(Theme = "@style/PrismTheme",NoHistory = true)]
     public class SplashSC : AppCompatActivity
     {
         static readonly string TAG = "X: " + typeof(SplashSC).Name;
