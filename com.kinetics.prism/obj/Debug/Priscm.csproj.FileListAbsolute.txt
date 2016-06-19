@@ -128,5 +128,6 @@ F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\android\as
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\android\assets\System.Xml.dll.mdb
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\Priscm.csprojResolveAssemblyReference.cache
+F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\layout\adaptercustomershomeview.xml
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\Priscm.dll.mdb
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\Priscm.dll.mdb

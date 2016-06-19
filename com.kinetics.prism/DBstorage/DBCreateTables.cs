@@ -20,10 +20,14 @@ namespace com.kinetics.prism.DBstorage
             string tag = "DBStructActivity: ";
             try
             {
+                //products table
                 currDBConn.CreateTableAsync<Product>();
+                Log.Info(tag, "Create Products Table");
+                //customers table
+                currDBConn.CreateTableAsync<Customer>();
                 DBCreatedStatus = "DBCreateSucccess";
-                Log.Info(tag, "Create Products Table");               
-                               
+                Log.Info(tag, "Create Customers Table");
+                //echo success
                 return DBCreatedStatus;
             }catch (SQLiteException sqlEx)
             {
@@ -42,6 +46,9 @@ namespace com.kinetics.prism.DBstorage
             {
                 var clearProducts = currDBConn.QueryAsync<Product>("DELETE FROM Products");
                 Log.Info(tag, "Clear Products Table");
+
+                var clearCustomers = currDBConn.QueryAsync<Product>("DELETE FROM Customers");
+                Log.Info(tag, "Clear Customers Table");
             }
             catch (SQLiteException sqlEx)
             {

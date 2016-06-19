@@ -145,9 +145,13 @@
     <Compile Include="DBstorage\DatabaseHelper.cs" />
     <Compile Include="DBstorage\DBCreateTables.cs" />
     <Compile Include="Models\BaseModel.cs" />
+    <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\JsonObjs\JsonCustomer.cs" />
     <Compile Include="Models\JsonObjs\JsonProduct.cs" />
     <Compile Include="Models\Product.cs" />
+    <Compile Include="RepoUtil\PriscmUtil.cs" />
     <Compile Include="Screens\Adapters\PriscmAdapter.cs" />
+    <Compile Include="Screens\Adapters\Customers\CustomerHomeAdapter.cs" />
     <Compile Include="Screens\Adapters\Products\ProductHomeAdapter.cs" />
     <Compile Include="Screens\Logins\SplashSC.cs" />
     <Compile Include="Screens\Logins\User_Login.cs" />
@@ -163,6 +167,7 @@
     <Compile Include="SQLiteAsync.cs" />
     <Compile Include="SyncManager\NavRouter.cs" />
     <Compile Include="SyncManager\SyncBase.cs" />
+    <Compile Include="SyncManager\SyncCustomer.cs" />
     <Compile Include="SyncManager\SyncMaster.cs" />
     <Compile Include="SyncManager\SyncProduct.cs" />
   </ItemGroup>
@@ -171,6 +176,9 @@
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\layout\AdapterProductsHomeView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <AndroidResource Include="Resources\layout\User_Register.axml" />
     <AndroidResource Include="Resources\layout\User_Pending.axml" />
     <AndroidResource Include="Resources\layout\Menu_Customers.axml" />
@@ -179,7 +187,7 @@
     <AndroidResource Include="Resources\layout\Menu_Receipts.axml" />
     <AndroidResource Include="Resources\layout\Menu_Sales.axml" />
     <AndroidResource Include="Resources\layout\Menu_Syncs.axml" />
-    <AndroidResource Include="Resources\layout\AdapterProductsHomeView.axml">
+    <AndroidResource Include="Resources\layout\AdapterCustomersHomeView.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
     <None Include="SyncManager\ServiceReferences.ClientConfig" />
@@ -213,7 +221,6 @@
     <Folder Include="Activitys\Products\" />
     <Folder Include="Activitys\Users\" />
     <Folder Include="BizLogics\" />
-    <Folder Include="RepoUtil\" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\ic_launcher.png" />

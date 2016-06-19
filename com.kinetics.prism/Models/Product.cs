@@ -1,6 +1,7 @@
 using Android.Util;
 using com.kinetics.prism.DBstorage;
 using com.kinetics.prism.Models.JsonObjs;
+using com.kinetics.prism.RepoUtil;
 using SQLite;
 using System;
 using System.Collections.Generic;
@@ -85,9 +86,9 @@ namespace com.kinetics.prism.Models
         public Product CreateProdFromJson(JsonProduct Item)
         {
             Product prodHolder = new Product();
-            //do some default stuff if necessary
+            //do some default stuff if necessary ****CAN WE CHANGE THIS TO BE DONE BY REFLECTION
             prodHolder.ItemCode = Item.ProductID;
-            prodHolder.Name = formatItemName(Item.Name);
+            prodHolder.Name = PriscmUtil.formatNameToUpper(Item.Name);
             prodHolder.UOM = Item.UOM;
             prodHolder.ProdGroup = Item.ProdGroup;
             prodHolder.Pack = Item.Pack;
@@ -134,11 +135,5 @@ namespace com.kinetics.prism.Models
             return availQty;
         }
 
-        static public string formatItemName (string RawitemName)
-        {
-            return System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase (
-                System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToLower(
-                    RawitemName));
-        }
     }
 }

@@ -38,6 +38,10 @@ com.kinetics.prism.Screens.Adapters.PriscmAdapter, Priscm;md53ee32f6a81e3557d9af
 com.kinetics.prism.Screens.Adapters.PriscmAdapter, Priscm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53ee32f6a81e3557d9af8d775d92e72f5.PriscmAdapter
 com.kinetics.prism.Screens.Adapters.PriscmAdapter;md53ee32f6a81e3557d9af8d775d92e72f5.PriscmAdapter
 com.kinetics.prism.screens.adapters.PriscmAdapter;md53ee32f6a81e3557d9af8d775d92e72f5.PriscmAdapter
+com.kinetics.prism.Screens.Adapters.CustomerHomeAdapter, Priscm;md53ee32f6a81e3557d9af8d775d92e72f5.CustomerHomeAdapter
+com.kinetics.prism.Screens.Adapters.CustomerHomeAdapter, Priscm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53ee32f6a81e3557d9af8d775d92e72f5.CustomerHomeAdapter
+com.kinetics.prism.Screens.Adapters.CustomerHomeAdapter;md53ee32f6a81e3557d9af8d775d92e72f5.CustomerHomeAdapter
+com.kinetics.prism.screens.adapters.CustomerHomeAdapter;md53ee32f6a81e3557d9af8d775d92e72f5.CustomerHomeAdapter
 com.kinetics.prism.Screens.Adapters.ProductHomeAdapter, Priscm;md53ee32f6a81e3557d9af8d775d92e72f5.ProductHomeAdapter
 com.kinetics.prism.Screens.Adapters.ProductHomeAdapter, Priscm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53ee32f6a81e3557d9af8d775d92e72f5.ProductHomeAdapter
 com.kinetics.prism.Screens.Adapters.ProductHomeAdapter;md53ee32f6a81e3557d9af8d775d92e72f5.ProductHomeAdapter
