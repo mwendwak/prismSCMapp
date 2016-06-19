@@ -24,6 +24,7 @@ namespace com.kinetics.prism.Models.JsonObjs
         public string InventGroup { get; set; }
         public string ItemTrackngID { get; set; }
         public string Location { get; set; }
+        public string Name { get; set; }
         public string Pack { get; set; }
         public string ProdGroup { get; set; }
         public string ProductID { get; set; }

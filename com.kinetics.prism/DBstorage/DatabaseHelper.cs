@@ -13,7 +13,11 @@ namespace com.kinetics.prism.DBstorage
         public static SQLiteAsyncConnection dbConnAsync;
         private static DatabaseHelper dbInstance;
 
+        public static SQLiteConnection DBConnTemp;
+
         private static readonly object padlock = new object();
+
+        public static string getDbPath() { return DbPath; }
 
         protected DatabaseHelper ()
         {
@@ -52,6 +56,12 @@ namespace com.kinetics.prism.DBstorage
         public SQLiteAsyncConnection getConn()
         {
                 return dbConnAsync;
+        }
+
+        public SQLiteConnection getTempDBConn()
+        {
+            SQLiteConnection dbTempConn = new SQLiteConnection (DbPath);
+            return dbTempConn;
         }
 
     }

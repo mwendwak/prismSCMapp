@@ -154,7 +154,9 @@ namespace NAVSCMIntegrator
         private string ItemTrackngIDField;
         
         private string LocationField;
-        
+
+        private string Name;
+
         private string PackField;
         
         private string ProdGroupField;
@@ -203,7 +205,19 @@ namespace NAVSCMIntegrator
                 this.LocationField = value;
             }
         }
-        
+
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string NameField
+        {
+            get
+            {
+                return this.Name;
+            }
+            set
+            {
+                this.Name = value;
+            }
+        }
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string Pack
         {

@@ -33,5 +33,21 @@ namespace com.kinetics.prism.DBstorage
                 return DBCreatedStatus;
             }
         }
+
+        public void clearTables()
+        {
+            string DBCreatedStatus = "";
+            string tag = "DBTruncateActivity: ";
+            try
+            {
+                var clearProducts = currDBConn.QueryAsync<Product>("DELETE FROM Products");
+                Log.Info(tag, "Clear Products Table");
+            }
+            catch (SQLiteException sqlEx)
+            {
+                DBCreatedStatus = "DBClearFail: " + sqlEx.Message;
+                Log.Error(tag, "Problem DB Struct. " + DBCreatedStatus);
+            }
+        }
     }
 }

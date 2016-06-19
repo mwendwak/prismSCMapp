@@ -1,17 +1,19 @@
 using Android.Util;
+using com.kinetics.prism.DBstorage;
 using com.kinetics.prism.Models.JsonObjs;
 using SQLite;
 using System;
 using System.Collections.Generic;
-using System.Json;
 
 namespace com.kinetics.prism.Models
 {
     [Table("Products")]
     public class Product : BaseModel
     {
-        [PrimaryKey , Column("ItemCode")]
+        [PrimaryKey, Column("ItemCode")]
         public string ItemCode { get; set; }
+        [Column("Name")]
+        public string Name { get; set; }
         [Column("UOM")]
         public string UOM { get; set; }
         [Column("ProdGroup")]
@@ -29,7 +31,7 @@ namespace com.kinetics.prism.Models
         [Column("Family")]
         public string Family { get; set; }
 
-        public bool  insertProduct(Product newProduct) //modify this to use base methods from BaseModel classes ?? do we make this static
+        public bool insertProduct(Product newProduct) //modify this to use base methods from BaseModel classes ?? do we make this static
         {
             bool recordCreated = false;
             string tag = "ProductsTSQL: ";
@@ -45,7 +47,7 @@ namespace com.kinetics.prism.Models
             {
                 Log.Error(tag, "Failure in creating a Product " + sqlEx.Message);
             }
-            
+
             return recordCreated;
         }
 
@@ -65,7 +67,8 @@ namespace com.kinetics.prism.Models
                 newProd.ItemTrackingID = "LOX01";
                 newProd.Family = "F0001";
                 Log.Info(tag, "Packaged Item Data " + newProd.ItemCode);
-            } catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 Log.Error(tag, "Failure in Packaging Item Data " + ex.Message);
             }
@@ -74,7 +77,7 @@ namespace com.kinetics.prism.Models
 
         public List<Product> getAllNavItem()
         {
-            List<Product> NavItems = new List<Product> ();
+            List<Product> NavItems = new List<Product>();
 
             return NavItems;
         }
@@ -83,16 +86,59 @@ namespace com.kinetics.prism.Models
         {
             Product prodHolder = new Product();
             //do some default stuff if necessary
-            prodHolder.ItemCode         = Item.ProductID  ;
-            prodHolder.UOM              = Item.UOM  ;
-            prodHolder.ProdGroup        = Item.ProdGroup  ;
-            prodHolder.Pack             = Item.Pack  ;
-            prodHolder.UnitPrice        = Decimal.Round(Item.UnitPrice,2);
-            prodHolder.InventGroup      = Item.InventGroup  ;
-            prodHolder.Location         = Item.Location  ;
-            prodHolder.ItemTrackingID   = Item.ItemTrackngID  ;
-            prodHolder.Family           = Item.Family;
+            prodHolder.ItemCode = Item.ProductID;
+            prodHolder.Name = formatItemName(Item.Name);
+            prodHolder.UOM = Item.UOM;
+            prodHolder.ProdGroup = Item.ProdGroup;
+            prodHolder.Pack = Item.Pack;
+            prodHolder.UnitPrice = Decimal.Round(Item.UnitPrice, 2);
+            prodHolder.InventGroup = Item.InventGroup;
+            prodHolder.Location = Item.Location;
+            prodHolder.ItemTrackingID = Item.ItemTrackngID;
+            prodHolder.Family = Item.Family;
             return prodHolder;
+        }
+
+        public static Product[] getProducts()
+        {
+            string tag = "GETPRODS";
+            var db = new SQLiteConnection(DatabaseHelper.getDbPath());
+
+            var productsVar = db.Table<Product>();
+            int NoOfProds = productsVar.Count();
+            int prodCounter = 0;
+
+            Product[] products = new Product[NoOfProds];
+            try
+            {
+                lock (locker)
+                {                    
+                    foreach (var item in productsVar)
+                    {
+                        products[prodCounter] = item;
+                        prodCounter += 1;
+                    }
+                }
+            }catch (Exception sqlEx) {
+                Log.Error(tag, "Products Packing Fail: " + sqlEx.Message);
+            }
+
+            return products;
+        }
+
+        public double getProductQty ()
+        {
+            Random randQty = new Random();
+            double availQty = randQty.Next(100, 999);
+            
+            return availQty;
+        }
+
+        static public string formatItemName (string RawitemName)
+        {
+            return System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase (
+                System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToLower(
+                    RawitemName));
         }
     }
 }

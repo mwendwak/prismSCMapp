@@ -7,7 +7,8 @@ public class Palette_PaletteAsyncListenerImplementor
 		mono.android.IGCUserPeer,
 		android.support.v7.graphics.Palette.PaletteAsyncListener
 {
-	static final String __md_methods;
+/** @hide */
+	public static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onGenerated:(Landroid/support/v7/graphics/Palette;)V:GetOnGenerated_Landroid_support_v7_graphics_Palette_Handler:Android.Support.V7.Graphics.Palette/IPaletteAsyncListenerInvoker, Xamarin.Android.Support.v7.Palette\n" +
@@ -31,7 +32,7 @@ public class Palette_PaletteAsyncListenerImplementor
 
 	private native void n_onGenerated (android.support.v7.graphics.Palette p0);
 
-	java.util.ArrayList refList;
+	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

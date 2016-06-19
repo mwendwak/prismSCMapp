@@ -18,6 +18,7 @@ namespace com.kinetics.prism.SyncManager
         public async Task<JObject> getServerResponse(string url, string tag)    //MOVE THIS WHOLE CODE SECTION TO A GENERIC FUNCTION FOR ABSTRACTION
         {
             string tagHeader = "Getting Server Responses: ";
+
             try
             {
                 HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(new Uri(url));

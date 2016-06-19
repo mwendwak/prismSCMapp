@@ -6,7 +6,8 @@ public class FormAuthenticatorActivity_State
 	implements
 		mono.android.IGCUserPeer
 {
-	static final String __md_methods;
+/** @hide */
+	public static final String __md_methods;
 	static {
 		__md_methods = 
 			"";
@@ -21,7 +22,7 @@ public class FormAuthenticatorActivity_State
 			mono.android.TypeManager.Activate ("Xamarin.Auth.FormAuthenticatorActivity+State, Xamarin.Auth, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
-	java.util.ArrayList refList;
+	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

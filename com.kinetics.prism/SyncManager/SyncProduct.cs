@@ -25,7 +25,7 @@ namespace com.kinetics.prism.SyncManager
         }
         public void InitializeProductClient()
         {
-            svrUrl = "http://192.168.0.13/NAVSCMIntegrator/Service/NAVRouter.svc/Products";
+            svrUrl = "http://192.168.0.14:80/NAVSCMIntegrator/Service/NAVRouter.svc/Products";  //GET THIS VALUE FROM A RESOURCE FILE
         }
 
         public async void GetSvrProducts()

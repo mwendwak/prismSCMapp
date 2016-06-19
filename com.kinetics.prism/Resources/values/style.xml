@@ -63,4 +63,27 @@
     </style>
   <!-- Main Theme--> 
   
-</resources>
+  <!-- text styles -->
+  <style name="Fonts">
+    <item name ="android:fontFamily">sans-serif</item>
+  </style>
+  
+  <style name="FontsHeaders" parent="Fonts">
+    <item name ="android:typeface">sans</item>
+    <item name="android:textColor">@color/FontHeader</item>    
+    <item name ="android:textSize">20sp</item>
+  </style>
+  <style name="FontsRegular" parent="Fonts">
+    <item name ="android:textSize">15sp</item>    
+    <item name="android:textColor">@color/FontRegular</item>
+  </style>  
+  <style name="FontsRedHint" parent="Fonts">
+    <item name ="android:textSize">15sp</item>
+    <item name="android:textColor">@color/FontRedHint</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+  <style name="FontsBlueHint" parent="Fonts">
+    <item name ="android:textSize">15sp</item>
+    <item name="android:textColor">@color/FontBlueHint</item>
+  </style>  
+ </resources>

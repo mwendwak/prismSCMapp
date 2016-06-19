@@ -23,7 +23,7 @@ namespace com.kinetics.prism
 
             /*CAPTURE PAGE ELEMENTS*/
                 var view = inflater.Inflate(Resource.Layout.Menu_Home, container, false);
-                var btnGenProducts = view.FindViewById<Button>(Resource.Id.genProducts);
+                var btnClearDB = view.FindViewById<Button>(Resource.Id.clearDB);
                 var btnSyncProducts = view.FindViewById<Button>(Resource.Id.syncProducts);
                 var btnInstDB = view.FindViewById<Button>(Resource.Id.dbCreate);
             /*PAGE ELEMENTS*/
@@ -36,10 +36,9 @@ namespace com.kinetics.prism
                     dbInstMsg =  dbManager.createTables();
               
                 };
-                btnGenProducts.Click += delegate {                   
-                    Product tempProd = new Product();
-                    tempProd.updateItemDetails(tempProd);  //USE OPEN & CLOSE CMDS ??
-                    tempProd.insertProduct(tempProd);  //USE OPEN & CLOSE CMDS ??
+                btnClearDB.Click += delegate {
+                    DBCreateTables dbUtility = new DBCreateTables();
+                    dbUtility.clearTables();
                 };
                 btnSyncProducts.Click += delegate {
                     SyncProduct syncProducts = new SyncProduct();

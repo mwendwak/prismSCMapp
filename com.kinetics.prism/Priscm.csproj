@@ -35,13 +35,9 @@
     <WarningLevel>4</WarningLevel>
     <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
-    <AndroidLinkSkip />
     <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
     <BundleAssemblies>False</BundleAssemblies>
     <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
-    <AndroidSupportedAbis />
-    <AndroidStoreUncompressedFileExtensions />
-    <MandroidI18n />
     <Debugger>Xamarin</Debugger>
     <AndroidEnableMultiDex>False</AndroidEnableMultiDex>
     <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
@@ -151,6 +147,8 @@
     <Compile Include="Models\BaseModel.cs" />
     <Compile Include="Models\JsonObjs\JsonProduct.cs" />
     <Compile Include="Models\Product.cs" />
+    <Compile Include="Screens\Adapters\PriscmAdapter.cs" />
+    <Compile Include="Screens\Adapters\Products\ProductHomeAdapter.cs" />
     <Compile Include="Screens\Logins\SplashSC.cs" />
     <Compile Include="Screens\Logins\User_Login.cs" />
     <Compile Include="Screens\Logins\User_Registration.cs" />
@@ -160,6 +158,7 @@
     <Compile Include="Screens\NavigationFrags\NavTabOrder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Screens\Renderer\ImageCircle.cs" />
     <Compile Include="SQLite.cs" />
     <Compile Include="SQLiteAsync.cs" />
     <Compile Include="SyncManager\NavRouter.cs" />
@@ -180,6 +179,9 @@
     <AndroidResource Include="Resources\layout\Menu_Receipts.axml" />
     <AndroidResource Include="Resources\layout\Menu_Sales.axml" />
     <AndroidResource Include="Resources\layout\Menu_Syncs.axml" />
+    <AndroidResource Include="Resources\layout\AdapterProductsHomeView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <None Include="SyncManager\ServiceReferences.ClientConfig" />
   </ItemGroup>
   <ItemGroup>
@@ -194,10 +196,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\values\style.xml" />
+    <AndroidResource Include="Resources\values\style.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\values\colors.xml" />
+    <AndroidResource Include="Resources\values\colors.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\splash_screen.xml" />
