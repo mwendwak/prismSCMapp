@@ -27,6 +27,10 @@ namespace com.kinetics.prism.DBstorage
                 currDBConn.CreateTableAsync<Customer>();
                 DBCreatedStatus = "DBCreateSucccess";
                 Log.Info(tag, "Create Customers Table");
+                //salesheader table
+                currDBConn.CreateTableAsync<SalesHeader>();
+                DBCreatedStatus = "DBCreateSucccess";
+                Log.Info(tag, "Create SalesHeaders Table");
                 //echo success
                 return DBCreatedStatus;
             }catch (SQLiteException sqlEx)
@@ -47,8 +51,11 @@ namespace com.kinetics.prism.DBstorage
                 var clearProducts = currDBConn.QueryAsync<Product>("DELETE FROM Products");
                 Log.Info(tag, "Clear Products Table");
 
-                var clearCustomers = currDBConn.QueryAsync<Product>("DELETE FROM Customers");
+                var clearCustomers = currDBConn.QueryAsync<Customer>("DELETE FROM Customers");
                 Log.Info(tag, "Clear Customers Table");
+
+                var clearSalesHeaders = currDBConn.QueryAsync<SalesHeader>("DELETE FROM SalesHeader");
+                Log.Info(tag, "Clear SalesHeader Table");
             }
             catch (SQLiteException sqlEx)
             {

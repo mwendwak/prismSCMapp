@@ -147,7 +147,9 @@
     <Compile Include="Models\BaseModel.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\JsonObjs\JsonCustomer.cs" />
+    <Compile Include="Models\JsonObjs\JsonOrder.cs" />
     <Compile Include="Models\JsonObjs\JsonProduct.cs" />
+    <Compile Include="Models\SalesHeader.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="RepoUtil\PriscmUtil.cs" />
     <Compile Include="Screens\Adapters\PriscmAdapter.cs" />
@@ -157,11 +159,13 @@
     <Compile Include="Screens\Logins\User_Login.cs" />
     <Compile Include="Screens\Logins\User_Registration.cs" />
     <Compile Include="Screens\NavigationFrags\NavTabCustomer.cs" />
-    <Compile Include="Screens\NavigationFrags\NavTabProduct.cs" />
     <Compile Include="Screens\NavigationFrags\NavTabHome.cs" />
     <Compile Include="Screens\NavigationFrags\NavTabOrder.cs" />
+    <Compile Include="Screens\NavigationFrags\NavTabProduct.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Screens\NavigationFrags\NavTabSalesOrder.cs" />
+    <Compile Include="Screens\NavigationFrags\NavTabSync.cs" />
     <Compile Include="Screens\Renderer\ImageCircle.cs" />
     <Compile Include="SQLite.cs" />
     <Compile Include="SQLiteAsync.cs" />
@@ -169,6 +173,7 @@
     <Compile Include="SyncManager\SyncBase.cs" />
     <Compile Include="SyncManager\SyncCustomer.cs" />
     <Compile Include="SyncManager\SyncMaster.cs" />
+    <Compile Include="SyncManager\SyncSalesHeader.cs" />
     <Compile Include="SyncManager\SyncProduct.cs" />
   </ItemGroup>
   <ItemGroup>

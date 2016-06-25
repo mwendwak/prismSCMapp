@@ -30,7 +30,11 @@ namespace com.kinetics.prism
                 NavTabOrder orderTab = new NavTabOrder();
                 AddTab(GetString(Resource.String.menu_4), Resource.Drawable.ic_launcher, orderTab);
                 //5.Cash Tab
-                /*ADD DISPLAY FOR THIS TABS*/
+
+                //6.Cash Tab
+                NavTabSync syncTab  = new NavTabSync();
+                AddTab(GetString(Resource.String.menu_6), Resource.Drawable.ic_launcher, syncTab);
+            /*ADD DISPLAY FOR THIS TABS*/
             //action bar tabs
             if (bundle != null)
                 this.ActionBar.SelectTab(this.ActionBar.GetTabAt(bundle.GetInt("tab")));

@@ -15,6 +15,8 @@ namespace com.kinetics.prism.SyncManager
         {
 
         }
+        public static string SYNCIPADDRESS = "10.0.2.2";  //CHANGE THIS TO THE ACTUAL IP ADRESS FOR THE SVR SYC POINT
+
         public async Task<JObject> getServerResponse(string url, string tag)    //MOVE THIS WHOLE CODE SECTION TO A GENERIC FUNCTION FOR ABSTRACTION
         {
             string tagHeader = "Getting Server Responses: ";
