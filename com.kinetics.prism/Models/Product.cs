@@ -123,7 +123,7 @@ namespace com.kinetics.prism.Models
             }catch (Exception sqlEx) {
                 Log.Error(tag, "Products Packing Fail: " + sqlEx.Message);
             }
-
+            db.Close();
             return products;
         }
 

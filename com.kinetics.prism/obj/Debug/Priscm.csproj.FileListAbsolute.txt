@@ -30,9 +30,11 @@ F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\layout
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\layout\menu_home.xml
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\layout\menu_products.xml
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\layout\menu_receipts.xml
-F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\layout\menu_sales.xml
+F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\layout\menu_salesheaders.xml
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\layout\menu_syncs.xml
+F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\layout\adaptercustomershomeview.xml
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\layout\adapterproductshomeview.xml
+F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\layout\adaptersalesheadershomeview.xml
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\layout\main.xml
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\values\strings.xml
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\values\style.xml
@@ -40,7 +42,6 @@ F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\values
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\drawable\splash_screen.xml
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\drawable\ic_launcher.png
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\drawable\diamondcusp.png
-F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\drawable\ab_background_textured_example.xml
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\drawable\ab_bottom_solid_example.9.png
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\drawable\ab_solid_example.9.png
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\drawable\ab_stacked_solid_example.9.png
@@ -59,7 +60,6 @@ F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\layout
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\drawable\prism_logo.png
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\layout\user_login.xml
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\drawable\prismlogo.png
-F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\values\theme.xml
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\drawable\priscm_logo.png
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\drawable\progress_bg_example.9.png
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\drawable\progress_horizontal_example.xml
@@ -128,6 +128,15 @@ F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\android\as
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\android\assets\System.Xml.dll.mdb
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\Priscm.csprojResolveAssemblyReference.cache
-F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\layout\adaptercustomershomeview.xml
+F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\MPAndroidChart.dll
+F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\MPAndroidChart.pdb
+F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\MPAndroidChart.dll.mdb
+F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\android\assets\MPAndroidChart.dll.mdb
+F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\Refractored.FloatingActionButton.dll
+F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\Refractored.FloatingActionButton.pdb
+F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\Refractored.FloatingActionButton.xml
+F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\drawable\ic_action_fab_add.png
+F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\Refractored.FloatingActionButton.dll.mdb
+F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\android\assets\Refractored.FloatingActionButton.dll.mdb
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\Priscm.dll.mdb
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\Priscm.dll.mdb

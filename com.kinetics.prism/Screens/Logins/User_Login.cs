@@ -1,15 +1,13 @@
+using Android.Support.V7.App;
 using Android.App;
 using Android.Content;
 using Android.OS;
-using Android.Support.V7.App;
-using Android.Util;
-using Android.Views;
 using Android.Widget;
 
 namespace com.kinetics.prism
 {
-    [Activity(Theme = "@style/PrismTheme.Login",MainLauncher = true)]
-    public class UserLogin : AppCompatActivity
+    [Activity(Theme = "@android:style/Theme.Holo.Light", MainLauncher = true)]
+    public class UserLogin : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {

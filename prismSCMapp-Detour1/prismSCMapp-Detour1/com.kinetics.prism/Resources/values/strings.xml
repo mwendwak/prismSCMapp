@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">com.kinetics.prism</string>
+    <!-- Navigation Menu Items on Action Bar-->
+        <string name="menu_1">Home</string>
+        <string name="menu_2">Products</string>
+        <string name="menu_3">Customers</string>
+        <string name="menu_4">Sales</string>
+        <string name="menu_5">Cash</string>
+        <string name="menu_6">Syncs</string>
+    <!-- Navigation Menu-->
+  
+  
+    <!-- DataBase Related String -->
+        <string name="DbName">PriscmDB</string>
+    <!-- DataBase Related String -->
+</resources>

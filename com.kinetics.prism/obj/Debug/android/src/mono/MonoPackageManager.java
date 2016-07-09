@@ -99,9 +99,12 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "Priscm.dll" comes first in this list. */
 		"Priscm.dll",
+		"Accessibility.dll",
 		"Java.Interop.dll",
 		"JetBrains.Annotations.PCL328.dll",
+		"MPAndroidChart.dll",
 		"Newtonsoft.Json.dll",
+		"Refractored.FloatingActionButton.dll",
 		"SQLite.Net.Async.dll",
 		"SQLite.Net.dll",
 		"SQLite.Net.Platform.XamarinAndroid.dll",

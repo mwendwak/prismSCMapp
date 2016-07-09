@@ -3,11 +3,15 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-  <TextView
-      android:text="HOME PAGE HERE"
-      android:textAppearance="?android:attr/textAppearanceLarge"
-      android:gravity="center"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/demoText" />
+    <TextView
+        android:text="HOME PAGE HERE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/demoText" />
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/saleschart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>

@@ -102,7 +102,7 @@ namespace com.kinetics.prism.Models
             {
                 Log.Error(tag, "Customers Packing Fail: " + sqlEx.Message);
             }
-
+            db.Close();
             return customers;
         }
 
@@ -112,6 +112,14 @@ namespace com.kinetics.prism.Models
             decimal custBalance = randQty.Next(100, 999);
 
             return custBalance;
+        }
+
+        static public string getCustomerNames(string custNo)
+        {
+            var db = new SQLiteConnection(DatabaseHelper.getDbPath());
+            Customer customer = db.Get<Customer>(custNo);
+            db.Close();
+            return customer.CustomerNames;
         }
 
     }

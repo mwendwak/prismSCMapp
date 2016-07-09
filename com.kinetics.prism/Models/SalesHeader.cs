@@ -135,11 +135,11 @@ namespace com.kinetics.prism.Models
             return orderDoc;
         }
 
-        public static SalesHeader[] getSalesHeaders(int DocType)
+        public static List<SalesHeader> getSalesHeaders(int DocType)
         {
             string tag = "GETORDERS";
             var db = new SQLiteConnection(DatabaseHelper.getDbPath());
-            var SalesHeadersVar = db.Query<SalesHeader>("SELECT * FROM Orders WHERE DocType = ?",DocType);
+            var SalesHeadersVar = db.Query<SalesHeader>("SELECT * FROM SalesHeader WHERE DocType = ? ORDER BY OrderDate DESC",DocType);
 
             if (SalesHeadersVar != null) {
                 int orderCounter = 0;
@@ -150,16 +150,16 @@ namespace com.kinetics.prism.Models
                     {
                         foreach (var item in SalesHeadersVar)
                         {
-                            SalesHeaders[orderCounter] = item;
+                            SalesHeaders.Add(item);
                             orderCounter += 1;
                         }
                     }
                 } catch (Exception sqlEx) {
                     Log.Error(tag, "SalesHeaders Packing Fail: " + sqlEx.Message);
                 }
-                return SalesHeaders.ToArray ();
+                return SalesHeaders;
             }
-            return new SalesHeader[0];
+            return new List<SalesHeader> ();
         }
 
     }

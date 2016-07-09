@@ -27,7 +27,7 @@ namespace com.kinetics.prism
                 NavTabCustomer customerTab = new NavTabCustomer();
                 AddTab(GetString(Resource.String.menu_3), Resource.Drawable.ic_launcher, customerTab);
                 //4.Orders Tab
-                NavTabOrder orderTab = new NavTabOrder();
+                NavTabSalesOrder orderTab = new NavTabSalesOrder();
                 AddTab(GetString(Resource.String.menu_4), Resource.Drawable.ic_launcher, orderTab);
                 //5.Cash Tab
 

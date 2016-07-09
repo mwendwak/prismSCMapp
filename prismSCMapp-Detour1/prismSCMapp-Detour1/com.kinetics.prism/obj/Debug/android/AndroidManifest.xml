@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.kinetics.prism" android:versionCode="1" android:versionName="andromeda" android:installLocation="auto">
+  <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="23" />
+  <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:debuggable="true" android:label="Priscm" android:icon="@drawable/ic_launcher" android:name="android.app.Application" android:allowBackup="true">
+    <activity android:screenOrientation="portrait" android:theme="@style/PrismTheme.Base" android:name="md51f0f95cda6703b7fd3dbd7cc23928f92.BaseActivity" />
+    <activity android:label="Prism SCM" android:theme="@android:style/Theme.Holo.Light.DarkActionBar" android:name="md51f0f95cda6703b7fd3dbd7cc23928f92.MainActivity" />
+    <activity android:noHistory="true" android:theme="@style/PrismTheme" android:name="md51f0f95cda6703b7fd3dbd7cc23928f92.SplashSC" />
+    <activity android:theme="@style/PrismTheme.Login" android:name="md51f0f95cda6703b7fd3dbd7cc23928f92.UserLogin">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="User Registration" android:theme="@style/PrismTheme" android:name="md51f0f95cda6703b7fd3dbd7cc23928f92.UserRegistration" />
+    <service android:name="md59f70a99687498e7ba187118950981d26.KeepAliveService" />
+    <activity android:label="Web Authenticator" android:name="md5a104545e4d19c4ffe9ec3d5074a3b979.FormAuthenticatorActivity" />
+    <activity android:label="Web Authenticator" android:name="md5a104545e4d19c4ffe9ec3d5074a3b979.WebAuthenticatorActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.kinetics.prism.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.kinetics.prism" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>
