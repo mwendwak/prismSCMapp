@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.kinetics.prism" android:versionCode="1" android:versionName="andromeda" android:installLocation="auto">
-  <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="23" />
+  <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="21" />
   <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -9,17 +9,18 @@
   <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:debuggable="true" android:label="Priscm" android:icon="@drawable/ic_launcher" android:theme="@style/PrismTheme" android:name="android.app.Application" android:allowBackup="true">
+  <application android:debuggable="true" android:label="Priscm" android:theme="@android:style/Theme.Holo.Light" android:icon="@drawable/ic_launcher" android:name="android.app.Application" android:allowBackup="true">
     <activity android:screenOrientation="portrait" android:theme="@style/PrismTheme.Base" android:name="md51f0f95cda6703b7fd3dbd7cc23928f92.BaseActivity" />
-    <activity android:label="Prism SCM" android:theme="@android:style/Theme.Holo.Light.DarkActionBar" android:name="md51f0f95cda6703b7fd3dbd7cc23928f92.MainActivity" />
-    <activity android:noHistory="true" android:theme="@style/PrismTheme" android:name="md51f0f95cda6703b7fd3dbd7cc23928f92.SplashSC" />
-    <activity android:theme="@android:style/Theme.Holo.Light" android:name="md51f0f95cda6703b7fd3dbd7cc23928f92.UserLogin">
+    <activity android:name="md51f0f95cda6703b7fd3dbd7cc23928f92.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:noHistory="true" android:theme="@style/PrismTheme" android:name="md51f0f95cda6703b7fd3dbd7cc23928f92.SplashSC" />
+    <activity android:theme="@android:style/Theme.Holo.Light" android:name="md51f0f95cda6703b7fd3dbd7cc23928f92.UserLogin" />
     <activity android:label="User Registration" android:theme="@style/PrismTheme" android:name="md51f0f95cda6703b7fd3dbd7cc23928f92.UserRegistration" />
+    <activity android:label="Create Sales Order" android:name="md5c10be6cd64b764e14559039170447e8f.SalesOrderCreate" />
     <service android:name="md59f70a99687498e7ba187118950981d26.KeepAliveService" />
     <activity android:label="Web Authenticator" android:name="md5a104545e4d19c4ffe9ec3d5074a3b979.FormAuthenticatorActivity" />
     <activity android:label="Web Authenticator" android:name="md5a104545e4d19c4ffe9ec3d5074a3b979.WebAuthenticatorActivity" />

@@ -10,6 +10,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/demoText" />
+    <Button
+        android:id="@+id/createOrder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="NEW ORDER"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
     <com.github.mikephil.charting.charts.LineChart
         android:id="@+id/saleschart"
         android:layout_width="match_parent"

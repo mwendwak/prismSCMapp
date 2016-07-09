@@ -54,6 +54,10 @@ com.kinetics.prism.Screens.Adapters.SalesHeaderHomeAdapter, Priscm;md53ee32f6a81
 com.kinetics.prism.Screens.Adapters.SalesHeaderHomeAdapter, Priscm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53ee32f6a81e3557d9af8d775d92e72f5.SalesHeaderHomeAdapter
 com.kinetics.prism.Screens.Adapters.SalesHeaderHomeAdapter;md53ee32f6a81e3557d9af8d775d92e72f5.SalesHeaderHomeAdapter
 com.kinetics.prism.screens.adapters.SalesHeaderHomeAdapter;md53ee32f6a81e3557d9af8d775d92e72f5.SalesHeaderHomeAdapter
+com.kinetics.prism.Activitys.Sales.SalesOrderCreate, Priscm;md5c10be6cd64b764e14559039170447e8f.SalesOrderCreate
+com.kinetics.prism.Activitys.Sales.SalesOrderCreate, Priscm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c10be6cd64b764e14559039170447e8f.SalesOrderCreate
+com.kinetics.prism.Activitys.Sales.SalesOrderCreate;md5c10be6cd64b764e14559039170447e8f.SalesOrderCreate
+com.kinetics.prism.activitys.sales.SalesOrderCreate;md5c10be6cd64b764e14559039170447e8f.SalesOrderCreate
 com.refractored.fab.AbsListViewScrollDetector, Refractored.FloatingActionButton;md59838dde1dfda7c80f6571ec8454ca90e.AbsListViewScrollDetector
 com.refractored.fab.AbsListViewScrollDetector, Refractored.FloatingActionButton, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md59838dde1dfda7c80f6571ec8454ca90e.AbsListViewScrollDetector
 com.refractored.fab.AbsListViewScrollDetector;md59838dde1dfda7c80f6571ec8454ca90e.AbsListViewScrollDetector

@@ -1,17 +1,18 @@
-﻿
+﻿using Android;
 using Android.App;
 using Android.OS;
+using Android.Support.V7.App;
 
 namespace com.kinetics.prism
 {
-    [Activity(Label = "Prism SCM", Theme = "@android:style/Theme.Holo.Light.DarkActionBar")]
+    [Activity(MainLauncher = true)]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
         {
-            base.OnCreate(bundle);
-
+            
             // Set our view from the "main" layout resource
+            base.OnCreate(bundle);
             SetContentView(Resource.Layout.Main);
 
             this.ActionBar.NavigationMode = ActionBarNavigationMode.Tabs;

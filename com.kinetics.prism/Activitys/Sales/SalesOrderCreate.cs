@@ -1,25 +1,23 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 using Android.App;
-using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
+using Android.Support.V7.App;
 
 namespace com.kinetics.prism.Activitys.Sales
 {
-    [Activity(Label = "SalesOrderCreate")]
-    public class SalesOrderCreate : Activity
+    [Activity(Label = "Create Sales Order")]
+    public class SalesOrderCreate :Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            ActionBar.SetIcon(Android.Resource.Color.Transparent);
+            SetContentView(Resource.Layout.SalesOrderCreate);
 
-            // Create your application here
+        }
+        protected override void OnSaveInstanceState(Bundle outState)
+        {
+           
         }
     }
 }

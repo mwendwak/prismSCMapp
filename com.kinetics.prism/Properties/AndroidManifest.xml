@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.kinetics.prism" android:versionCode="1" android:versionName="andromeda" android:installLocation="auto">
-	<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="23" />
+	<uses-sdk android:minSdkVersion="10" android:targetSdkVersion="21" />
 	<uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 	<uses-permission android:name="android.permission.BLUETOOTH" />
 	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 	<uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
-	<application android:debuggable="true" android:label="Priscm" android:icon="@drawable/ic_launcher" android:theme="@style/PrismTheme"></application>
+	<application android:debuggable="true" android:label="Priscm" android:theme="@android:style/Theme.Holo.Light" android:icon="@drawable/ic_launcher"></application>
 </manifest>

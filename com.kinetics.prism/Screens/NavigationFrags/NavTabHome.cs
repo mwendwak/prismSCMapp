@@ -4,6 +4,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using com.kinetics.prism.Activitys.Sales;
 using com.kinetics.prism.DBstorage;
 using com.kinetics.prism.Models;
 using com.kinetics.prism.SyncManager;
@@ -28,8 +29,12 @@ namespace com.kinetics.prism
             base.OnCreateView(inflater, container, savedInstanceState);
             /*CAPTURE PAGE ELEMENTS*/
                 var view = inflater.Inflate(Resource.Layout.Menu_Home, container, false);
+                var btnCreateOrder = view.FindViewById<Button>(Resource.Id.createOrder);
+            btnCreateOrder.Click += (sender, args) => { 
+                StartActivity(new Intent(Application.Context, typeof(SalesOrderCreate)));
+            };
             //DEFINES ALL DASH CHARTS HERE
-                SalesPerPeriodchart = view.FindViewById<LineChart>(Resource.Id.saleschart);
+            SalesPerPeriodchart = view.FindViewById<LineChart>(Resource.Id.saleschart);
             //DASH CHARTS
             DrawDashBoards ();
             /*PAGE ELEMENTS*/

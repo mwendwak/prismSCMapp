@@ -6,7 +6,7 @@ using Android.Widget;
 
 namespace com.kinetics.prism
 {
-    [Activity(Theme = "@android:style/Theme.Holo.Light", MainLauncher = true)]
+    [Activity(Theme = "@android:style/Theme.Holo.Light")]
     public class UserLogin : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
