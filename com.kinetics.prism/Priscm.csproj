@@ -15,7 +15,7 @@
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
-    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <NuGetPackageImportStamp>
@@ -32,7 +32,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+    <WarningLevel>0</WarningLevel>
     <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
     <BundleAssemblies>False</BundleAssemblies>
@@ -157,8 +157,10 @@
     <Compile Include="Models\BaseModel.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\JsonObjs\JsonCustomer.cs" />
+    <Compile Include="Models\JsonObjs\JsonOrderLine.cs" />
     <Compile Include="Models\JsonObjs\JsonOrder.cs" />
     <Compile Include="Models\JsonObjs\JsonProduct.cs" />
+    <Compile Include="Models\SalesLine.cs" />
     <Compile Include="Models\SalesHeader.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="RepoUtil\PriscmUtil.cs" />
@@ -166,7 +168,8 @@
     <Compile Include="Screens\Adapters\PriscmAdapter.cs" />
     <Compile Include="Screens\Adapters\Customers\CustomerHomeAdapter.cs" />
     <Compile Include="Screens\Adapters\Products\ProductHomeAdapter.cs" />
-    <Compile Include="Screens\Adapters\SalesOrders\SalesHeaderHomeAdapter.cs" />
+    <Compile Include="Screens\Adapters\SalesOrders\SalesHeaderHomeAdapter - Copy.cs" />
+    <Compile Include="Screens\Adapters\SalesOrders\SalesLineAdapter.cs" />
     <Compile Include="Screens\Logins\SplashSC.cs" />
     <Compile Include="Screens\Logins\User_Login.cs" />
     <Compile Include="Screens\Logins\User_Registration.cs" />
@@ -207,6 +210,9 @@
     <AndroidResource Include="Resources\layout\AdapterSalesHeadersHomeView.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\AdapterCreateSalesLine.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <None Include="SyncManager\ServiceReferences.ClientConfig" />
   </ItemGroup>
   <ItemGroup>
@@ -241,30 +247,37 @@
     <AndroidResource Include="Resources\drawable\ic_launcher.png" />
     <AndroidResource Include="Resources\drawable\DiamondCusp.png" />
     <AndroidResource Include="Resources\drawable\ic_action_fab_add.png" />
+    <AndroidResource Include="Resources\drawable\ic_line_delete.png" />
+    <AndroidResource Include="Resources\drawable\ic_add_lineitem.png" />
     <Content Include="Resources\drawable\mipmap-hdpi\fab_shadow.png" />
     <Content Include="Resources\drawable\mipmap-hdpi\fab_shadow_mini.png" />
     <Content Include="Resources\drawable\mipmap-hdpi\ic_action_fab_add.png" />
+    <Content Include="Resources\drawable\mipmap-hdpi\ic_add_lineitem.png" />
     <Content Include="Resources\drawable\mipmap-hdpi\ic_launcher.png" />
     <Content Include="Resources\drawable\mipmap-hdpi\prismlogo.9.png" />
     <Content Include="Resources\drawable\mipmap-ldpi\ic_launcher.png" />
     <Content Include="Resources\drawable\mipmap-mdpi\fab_shadow.png" />
     <Content Include="Resources\drawable\mipmap-mdpi\fab_shadow_mini.png" />
     <Content Include="Resources\drawable\mipmap-mdpi\ic_action_fab_add.png" />
+    <Content Include="Resources\drawable\mipmap-mdpi\ic_add_lineitem.png" />
     <Content Include="Resources\drawable\mipmap-mdpi\ic_launcher.png" />
     <Content Include="Resources\drawable\mipmap-mdpi\prismlogo.9.png" />
     <Content Include="Resources\drawable\mipmap-xhdpi\fab_shadow.png" />
     <Content Include="Resources\drawable\mipmap-xhdpi\fab_shadow_mini.png" />
     <Content Include="Resources\drawable\mipmap-xhdpi\ic_action_fab_add.png" />
+    <Content Include="Resources\drawable\mipmap-xhdpi\ic_add_lineitem.png" />
     <Content Include="Resources\drawable\mipmap-xhdpi\ic_launcher.png" />
     <Content Include="Resources\drawable\mipmap-xhdpi\prismlogo.9.png" />
     <Content Include="Resources\drawable\mipmap-xxhdpi\fab_shadow.png" />
     <Content Include="Resources\drawable\mipmap-xxhdpi\fab_shadow_mini.png" />
     <Content Include="Resources\drawable\mipmap-xxhdpi\ic_action_fab_add.png" />
+    <Content Include="Resources\drawable\mipmap-xxhdpi\ic_add_lineitem.png" />
     <Content Include="Resources\drawable\mipmap-xxhdpi\ic_launcher.png" />
     <Content Include="Resources\drawable\mipmap-xxhdpi\prismlogo.9.png" />
     <Content Include="Resources\drawable\mipmap-xxxhdpi\fab_shadow.png" />
     <Content Include="Resources\drawable\mipmap-xxxhdpi\fab_shadow_mini.png" />
     <Content Include="Resources\drawable\mipmap-xxxhdpi\ic_action_fab_add.png" />
+    <Content Include="Resources\drawable\mipmap-xxxhdpi\ic_add_lineitem.png" />
     <Content Include="Resources\drawable\mipmap-xxxhdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\layout\splash_screen.axml">
       <SubType>Designer</SubType>

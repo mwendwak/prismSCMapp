@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Sdk>
-  <AndroidApiLevel>24</AndroidApiLevel>
-  <AndroidApiLevelName>24</AndroidApiLevelName>
+  <AndroidApiLevel>23</AndroidApiLevel>
+  <AndroidApiLevelName>23</AndroidApiLevelName>
   <AndroidNdkPath>F:\Android\android-ndk-r11c</AndroidNdkPath>
   <AndroidSdkBuildToolsPath>C:\Users\Administrator\AppData\Local\Android\sdk\build-tools\23.0.3</AndroidSdkBuildToolsPath>
   <AndroidSdkBuildToolsBinPath>C:\Users\Administrator\AppData\Local\Android\sdk\build-tools\23.0.3</AndroidSdkBuildToolsBinPath>

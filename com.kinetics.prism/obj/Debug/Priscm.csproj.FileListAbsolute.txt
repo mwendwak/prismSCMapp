@@ -58,8 +58,8 @@ F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\values
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\layout\salesordercreate.xml
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\R.cs.flag
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\uploadflags.txt
-F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\Priscm.csprojResolveAssemblyReference.cache
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\Priscm.dll.mdb
+F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\Priscm.csprojResolveAssemblyReference.cache
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\Java.Interop.dll.mdb
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\Microsoft.CSharp.dll.mdb
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\Mono.Android.dll.mdb
@@ -107,5 +107,8 @@ F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\android\as
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\android\assets\System.Web.Services.dll.mdb
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\android\assets\System.Xml.dll.mdb
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\drawable\ic_line_delete.png
+F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\layout\adaptercreatesalesline.xml
+F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\res\drawable\ic_add_lineitem.png
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\obj\Debug\Priscm.dll.mdb
 F:\prismAppDevWorks\prismSCMapp\PrismSCM\com.kinetics.prism\bin\Debug\Priscm.dll.mdb

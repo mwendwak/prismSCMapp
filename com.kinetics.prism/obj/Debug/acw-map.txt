@@ -54,6 +54,10 @@ com.kinetics.prism.Screens.Adapters.SalesHeaderHomeAdapter, Priscm;md53ee32f6a81
 com.kinetics.prism.Screens.Adapters.SalesHeaderHomeAdapter, Priscm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53ee32f6a81e3557d9af8d775d92e72f5.SalesHeaderHomeAdapter
 com.kinetics.prism.Screens.Adapters.SalesHeaderHomeAdapter;md53ee32f6a81e3557d9af8d775d92e72f5.SalesHeaderHomeAdapter
 com.kinetics.prism.screens.adapters.SalesHeaderHomeAdapter;md53ee32f6a81e3557d9af8d775d92e72f5.SalesHeaderHomeAdapter
+com.kinetics.prism.Screens.Adapters.SalesLineAdapter, Priscm;md53ee32f6a81e3557d9af8d775d92e72f5.SalesLineAdapter
+com.kinetics.prism.Screens.Adapters.SalesLineAdapter, Priscm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53ee32f6a81e3557d9af8d775d92e72f5.SalesLineAdapter
+com.kinetics.prism.Screens.Adapters.SalesLineAdapter;md53ee32f6a81e3557d9af8d775d92e72f5.SalesLineAdapter
+com.kinetics.prism.screens.adapters.SalesLineAdapter;md53ee32f6a81e3557d9af8d775d92e72f5.SalesLineAdapter
 com.kinetics.prism.Activitys.Sales.SalesOrderCreate, Priscm;md5c10be6cd64b764e14559039170447e8f.SalesOrderCreate
 com.kinetics.prism.Activitys.Sales.SalesOrderCreate, Priscm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c10be6cd64b764e14559039170447e8f.SalesOrderCreate
 com.kinetics.prism.Activitys.Sales.SalesOrderCreate;md5c10be6cd64b764e14559039170447e8f.SalesOrderCreate

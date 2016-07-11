@@ -1,11 +1,10 @@
 ﻿using Android;
 using Android.App;
 using Android.OS;
-using Android.Support.V7.App;
 
 namespace com.kinetics.prism
 {
-    [Activity(MainLauncher = true)]
+    
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)

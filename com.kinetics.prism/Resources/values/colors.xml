@@ -27,6 +27,6 @@
 
   <color name="DocsLightHue">#FFCDD2</color>
   <color name="DocsMidHue">#F5F5F5</color>
-  <color name="DocsDarkHue">#C62828</color>
-  <color name="DocsFooterHue">#DD2C00</color>
+  <color name="DocsDarkHue">#F44336</color>
+  <color name="DocsFooterHue">#607D8B</color>
 </resources>
